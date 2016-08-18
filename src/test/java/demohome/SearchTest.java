@@ -30,7 +30,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 	  @Test
 	  public void testHome() throws Exception {
 	    driver.get(baseUrl + "/webapps/home.jsp");
-	    assertEquals("Insert title here", driver.getTitle());
+	    assertEquals("Insert title heres", driver.getTitle());
 	  }
 
 	  @After
